@@ -1,7 +1,7 @@
 # Chess
 Studying Mates
 
-As an enthusiastic on chess, I did this code too look deeper on one of the most difficult ending games: Bishop + Knight + King x Black King.
+As an enthusiastic on chess, I did this code to look deeper on one of the most difficult ending games: Bishop + Knight + King x Black King.
 This case is always a victory for White, but many people failed to achieve the mate ending the game in a draw, inclusive some Grand Masters lost this victory opportunity. 
 Computer analyses in chess almost always end in a computational challenge due to the huge number of possible board combinations, but when the number of pieces decreases, we can run through all the possible positions. 
 The biggest challenge here is to mate Black in less than 50 moves to avoid a draw. The algorithm show that it is always possible to mate black in less than 35 moves, quite close to fifty! In other words, in some of the positions you shall play the best move 35 times in a row, any deviation will keep you closer and closer to the draw.
